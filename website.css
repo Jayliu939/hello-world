@@ -1,0 +1,93 @@
+.btn-safari {
+    background-color: #98a713 !important; 
+    color: #fff !important;               
+    border-color: #98a713 !important;     
+    padding: 0.5rem 1rem !important;   
+}
+
+.btn-safari:hover, .btn-safari:focus {
+    background-color: #558000 !important; 
+    border-color: #558000 !important;
+}
+
+.modal .btn {
+  caret-color: transparent !important;
+  user-select: none !important!;
+}
+
+.navbar .nav-link {
+    font-size: 1.25rem; 
+	padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.carousel-item img {
+    max-height: 500px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+.bg-dark-safari {
+	background-color:#d1d9ac !important; /* MISLEADING NAME - TRUE COLOUR IS LIGHT YELLOWISH-GREEN */
+}
+
+.bg-dark-green {
+	background-color:#045121 !important; /* Navbar and footer dark green colour */
+}
+
+.bg-med-green { /* no idea what this is for */
+	background-color: #068235;
+}
+
+.trebuchet {
+	font-family: "Trebuchet MS";
+}
+
+.text-milk-yellow { /* Light yellow text colour (most used) */
+	color:#dde08d !important;
+}
+
+.text-dark-green {
+	color: #0e4d3f !important;
+}
+
+.light-blue {
+	color:#bef4f4;
+}
+
+.bg-custom-safari { /* literally the same as bg-dark-green */
+	background-color:#045121 !important;
+}
+
+
+@media screen and (max-width: 592px) { 
+	footer.hide {
+		display: none !important;
+	}
+
+.centered-left-aligned {
+  display: flex !important;
+  justify-content: center !important; /* Horizontal center */
+  text-align: left !important; /* Align text to the left */
+  width: 100% !important;
+}
+
+.fixed-ratio-image {
+	width: 100%;
+	object-fit: cover;
+	aspect-ratio: 4 / 3;
+}
+
+.close {
+	color: #dde08d !important;
+}
+
+/* 
+.footer{
+	width: 100% !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	position: absolute !important;
+	bottom: 0;
+} */
